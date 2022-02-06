@@ -8,7 +8,7 @@ export const Hero = () => {
     >
       <div className="flex justify-center items-center w-full h-screen">
         <div className="mx-4 text-center text-white">
-          <h1 className="mb-4 text-4xl font-bold tracking-widest text-stone-600 md:text-8xl">
+          <h1 className="mb-4 text-4xl font-bold tracking-widest text-black md:text-8xl">
             Cocoa Portfolio
           </h1>
         </div>
