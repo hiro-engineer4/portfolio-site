@@ -1,13 +1,45 @@
+import { StickyNavigation } from "components/Navigation/sticky";
 import { Hero } from "components/Hero";
 import { Navigation } from "components/Navigation";
 import { Profile } from "components/Profile";
 import { Portfolio } from "components/Portfolio";
 import { Skill } from "components/Skill";
 import { Contact } from "components/Contact";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 export default function Home() {
+  const [isDisplay, setIsDisplay] = useState(false);
+
+  const isRunning = useRef(false);
+
+  const isScrollToggle = useCallback(() => {
+    if (isRunning.current) return;
+    isRunning.current = true;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const nav = document.querySelector("#navigation");
+    const navOffset =
+      nav && window.pageYOffset + nav.getBoundingClientRect().top;
+
+    requestAnimationFrame(() => {
+      if (navOffset && scrollTop > navOffset) {
+        setIsDisplay(true);
+      } else {
+        setIsDisplay(false);
+      }
+      isRunning.current = false;
+    });
+  }, []);
+
+  useEffect(() => {
+    document.addEventListener("scroll", isScrollToggle, { passive: true });
+    return () => {
+      document.removeEventListener("scroll", isScrollToggle);
+    };
+  }, []);
+
   return (
     <>
+      <StickyNavigation isDisplay={isDisplay} />
       <Hero />
       <Navigation />
       <main>

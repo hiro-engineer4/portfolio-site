@@ -21,7 +21,7 @@ export const portfolioList = [
     title: "ポートフォリオサイト",
     description: "現在閲覧されているポートフォリオサイトです。",
     stack: ["React", "Next.js", "Tailwind CSS", "Vercel"],
-    url: "https://meg-portfolio.site/",
+    url: "https://cocoa-portfolio.site/",
     image: "/main.jpg",
   },
 ];
