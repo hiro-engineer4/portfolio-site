@@ -7,7 +7,7 @@ export const Contact = () => {
         <div className="max-w-md card-body">
           <h2 className="card-title">CONTACT</h2>
           <p className="text-sm tracking-wider leading-5">
-            ご質問、ご感想、お仕事のご相談等、 お気軽にご寄せください。
+            ご質問、お仕事のご相談等、 お気軽にお問い合わせください。
             <br />
             Twitterでのご連絡お待ちしております。
           </p>
