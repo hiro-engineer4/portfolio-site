@@ -6,7 +6,7 @@ import { Card } from "components/Card";
 
 export const Portfolio = () => {
   return (
-    <div className="py-32 text-stone-600 bg-pink-50">
+    <div className="py-32 text-stone-600 bg-indigo-50">
       <h1 className="mb-12 text-2xl tracking-wider text-center">PORTFOLIO</h1>
       <div className="mb-4 text-center">
         <a

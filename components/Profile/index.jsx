@@ -17,16 +17,6 @@ export const Profile = () => {
             フルリモートでRailsをメインとしたバックエンドエンジニアとして働いています。
             <br />
             趣味はFX, 音楽活動。
-            <br />
-            お仕事のご依頼・ご相談等につきましては、Twitterの
-            <a
-              href="https://twitter.com/CocoaEngineer"
-              target="_blank"
-              rel="noreferrer"
-            >
-              DM
-            </a>
-            からお願いします。
           </p>
         </div>
       </div>
