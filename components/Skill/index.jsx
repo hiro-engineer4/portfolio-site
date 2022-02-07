@@ -117,7 +117,8 @@ export const Skill = () => {
                     alt="icon"
                   />
                   <span className="ml-2">
-                    AWS 認定 ソリューションアーキテクト - アソシエイト(SAA-C02)
+                    AWS 認定 ソリューションアーキテクト <br />-
+                    アソシエイト(SAA-C02)
                   </span>
                 </li>
               </ul>

@@ -6,7 +6,13 @@ export const Profile = () => {
       <h1 className="mb-20 text-2xl tracking-wider text-center">PROFILE</h1>
       <div className="md:flex md:px-32">
         <div className="mb-3 text-center md:pr-4 md:w-1/2 md:text-right">
-          <Image src="/me.jpg" width={240} height={240} alt="profileImage" />
+          <Image
+            src="/me.jpg"
+            width={240}
+            height={240}
+            alt="profileImage"
+            objectFit="contain"
+          />
         </div>
 
         <div className="flex flex-col justify-center md:w-1/2">

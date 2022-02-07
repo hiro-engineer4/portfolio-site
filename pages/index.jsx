@@ -5,6 +5,7 @@ import { Profile } from "components/Profile";
 import { Portfolio } from "components/Portfolio";
 import { Skill } from "components/Skill";
 import { Contact } from "components/Contact";
+import { Footer } from "components/Footer";
 import { useState, useEffect, useRef, useCallback } from "react";
 
 export default function Home() {
@@ -56,6 +57,7 @@ export default function Home() {
           <Contact />
         </section>
       </main>
+      <Footer />
     </>
   );
 }

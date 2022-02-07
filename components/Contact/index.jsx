@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Contact = () => {
   return (
-    <div className="flex justify-center items-center py-32 px-2 h-96 bg-fixed bg-slate-200 bg-center bg-cover">
+    <div className="flex justify-center items-center py-32 px-2 h-48 bg-fixed bg-slate-200 bg-center bg-cover">
       <div className="text-stone-600 card glass lg:card-side">
         <div className="max-w-md card-body">
           <h2 className="card-title">CONTACT</h2>
