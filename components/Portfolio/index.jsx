@@ -30,7 +30,6 @@ export const Portfolio = () => {
             <Card
               title={portfolio.title}
               description={portfolio.description}
-              detail={portfolio.detail}
               stack={portfolio.stack}
               image={portfolio.image}
               url={portfolio.url}
