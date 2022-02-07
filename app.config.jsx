@@ -11,7 +11,7 @@ export const portfolioList = [
   {
     id: 2,
     title: "多め ni ワリカン",
-    description: "多め、少なめで割り勘するアプリです。",
+    description: "多め、少なめで割り勘するときに便利なアプリです。",
     stack: ["Vue.js", "Vuetify", "Firebase"],
     url: "https://ome-ni-warikan.web.app/",
     image: "/warikan.png",
