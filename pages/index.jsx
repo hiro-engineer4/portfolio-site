@@ -1,12 +1,12 @@
-import { StickyNavigation } from "components/Navigation/sticky";
-import { Hero } from "components/Hero";
-import { Navigation } from "components/Navigation";
-import { Profile } from "components/Profile";
-import { Portfolio } from "components/Portfolio";
-import { Skill } from "components/Skill";
 import { Contact } from "components/Contact";
 import { Footer } from "components/Footer";
-import { useState, useEffect, useRef, useCallback } from "react";
+import { Hero } from "components/Hero";
+import { Navigation } from "components/Navigation";
+import { StickyNavigation } from "components/Navigation/sticky";
+import { Portfolio } from "components/Portfolio";
+import { Profile } from "components/Profile";
+import { Skill } from "components/Skill";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function Home() {
   const [isDisplay, setIsDisplay] = useState(false);

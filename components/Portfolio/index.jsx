@@ -1,8 +1,7 @@
-import Image from "next/image";
 import { portfolioList } from "app.config";
-
 // Components
 import { Card } from "components/Card";
+import Image from "next/image";
 
 export const Portfolio = () => {
   return (
@@ -10,7 +9,7 @@ export const Portfolio = () => {
       <h1 className="mb-12 text-2xl tracking-wider text-center">PORTFOLIO</h1>
       <div className="mb-4 text-center">
         <a
-          href="https://github.com/cocoa-engineer"
+          href="https://github.com/hiro-engineer4"
           target="_blank"
           rel="noopener noreferrer"
           className="text-stone-600 bg-stone-300 hover:bg-stone-50 rounded-full border-0 btn"

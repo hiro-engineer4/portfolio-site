@@ -78,6 +78,23 @@ export const Skill = () => {
 
           <div className="card">
             <div className="card-body">
+              <h2 className="card-title">アプリ</h2>
+              <ul>
+                <li className="flex items-center mb-1 font-light">
+                  <Image
+                    src="/icon/react.png"
+                    width={32}
+                    height={32}
+                    alt="icon"
+                  />
+                  <span className="ml-2">React Native</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-body">
               <h2 className="card-title">資格</h2>
               <ul>
                 <li className="flex items-center mb-1 font-light">
