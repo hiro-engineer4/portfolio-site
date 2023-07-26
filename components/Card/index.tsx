@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { FC } from "react";
 
-import { portfolioListTypes } from "@/app.config";
+import { PortfolioListTypes } from "@/app.config";
 
-export const Card: FC<portfolioListTypes> = ({
+export const Card: FC<PortfolioListTypes> = ({
   title,
   description,
   image,

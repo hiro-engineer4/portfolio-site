@@ -12,8 +12,8 @@ export const StickyNavigation: FC<StickyNavigation> = ({ isDisplay }) => {
     >
       <ul className="flex justify-center items-center py-8">
         <li className="hidden md:block md:mr-12">
-          <Link href="/">
-            <a className="text-stone-500 hover:text-indigo-300">HOME</a>
+          <Link href="/" className="text-stone-500 hover:text-indigo-300">
+            HOME
           </Link>
         </li>
         <li className="mr-4 md:mr-12">

@@ -1,4 +1,4 @@
-export type portfolioListTypes = {
+export type PortfolioListTypes = {
   id?: number;
   title: string;
   description: string;
@@ -7,7 +7,7 @@ export type portfolioListTypes = {
   url: string;
 };
 
-export const portfolioList: portfolioListTypes[] = [
+export const portfolioList: PortfolioListTypes[] = [
   {
     id: 1,
     title: "Youtubeまとめアプリ",
