@@ -1,4 +1,13 @@
-export const portfolioList = [
+export type portfolioListTypes = {
+  id?: number;
+  title: string;
+  description: string;
+  image: string;
+  stack: string[];
+  url: string;
+};
+
+export const portfolioList: portfolioListTypes[] = [
   {
     id: 1,
     title: "Youtubeまとめアプリ",

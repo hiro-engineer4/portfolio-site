@@ -1,7 +1,15 @@
 import Image from "next/image";
+import { FC } from "react";
 
-export const Card = (props) => {
-  const { title, description, image, stack, url } = props;
+import { portfolioListTypes } from "@/app.config";
+
+export const Card: FC<portfolioListTypes> = ({
+  title,
+  description,
+  image,
+  stack,
+  url,
+}) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
       <div className="mx-auto w-72 h-96 text-center bg-white shadow-2xl transition duration-500 ease-in-out hover:scale-105 hover:-translate-y-1 hover:cursor-pointer card">

@@ -1,14 +1,16 @@
-import { portfolioList } from "app.config";
 // Components
-import { Card } from "components/Card";
 import Image from "next/image";
+
+import { portfolioList, portfolioListTypes } from "@/app.config";
+
+import { Card } from "../Card";
 
 export const Portfolio = () => {
   return (
     <div className="py-32 text-stone-600 bg-indigo-50">
       <h1 className="mb-12 text-2xl tracking-wider text-center">PORTFOLIO</h1>
       <div className="gap-8 justify-center items-center md:flex md:px-32">
-        {portfolioList.map((portfolio) => (
+        {portfolioList.map((portfolio: portfolioListTypes) => (
           <div key={portfolio.id} className="mb-3 md:mb-0">
             <Card
               title={portfolio.title}

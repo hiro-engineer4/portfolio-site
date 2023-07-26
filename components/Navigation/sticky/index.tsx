@@ -1,8 +1,11 @@
 import Link from "next/link";
+import { FC } from "react";
 
-export const StickyNavigation = (props) => {
-  const { isDisplay } = props;
+type StickyNavigation = {
+  isDisplay: boolean;
+};
 
+export const StickyNavigation: FC<StickyNavigation> = ({ isDisplay }) => {
   return (
     <nav
       className={`${isDisplay ? "block sticky top-0 z-50 bg-white" : "hidden"}`}
