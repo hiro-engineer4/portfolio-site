@@ -1,14 +1,14 @@
 import Image from "next/image";
 import { FC } from "react";
 
-import { PortfolioListTypes } from "@/app.config";
+import { PortfolioType } from "@/app.config";
 
-export const Card: FC<PortfolioListTypes> = ({
-  title,
-  description,
-  image,
-  stack,
-  url,
+type CardProps = {
+  portfolio: PortfolioType;
+};
+
+export const Card: FC<CardProps> = ({
+  portfolio: { title, description, image, stack, url },
 }) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
