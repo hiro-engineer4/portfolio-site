@@ -54,24 +54,6 @@ export const Skill = () => {
                   />
                   <span className="ml-2">AWS</span>
                 </li>
-                <li className="flex items-center mb-1 font-light">
-                  <Image
-                    src="/icon/docker.png"
-                    width={32}
-                    height={32}
-                    alt="icon"
-                  />
-                  <span className="ml-2">Docker</span>
-                </li>
-                <li className="flex items-center mb-1 font-light">
-                  <Image
-                    src="/icon/circleci.png"
-                    width={32}
-                    height={32}
-                    alt="icon"
-                  />
-                  <span className="ml-2">Circle CI</span>
-                </li>
               </ul>
             </div>
           </div>

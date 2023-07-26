@@ -6,9 +6,7 @@ export const Contact = () => {
       <h1 className="mb-12 text-2xl tracking-wider text-center">CONTACT</h1>
       <div className="text-center">
         <p className="mb-4 text-sm tracking-wider leading-6">
-          ご質問・お仕事のご相談等、 お気軽にお問い合わせください。
-          <br />
-          Twitterでのご連絡お待ちしております。
+          ご質問・お仕事のご相談等、TwitterのDMからお気軽にお問い合わせください。
         </p>
         <div className="text-center">
           <a

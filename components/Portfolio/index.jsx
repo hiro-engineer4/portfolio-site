@@ -7,7 +7,20 @@ export const Portfolio = () => {
   return (
     <div className="py-32 text-stone-600 bg-indigo-50">
       <h1 className="mb-12 text-2xl tracking-wider text-center">PORTFOLIO</h1>
-      <div className="mb-4 text-center">
+      <div className="gap-8 justify-center items-center md:flex md:px-32">
+        {portfolioList.map((portfolio) => (
+          <div key={portfolio.id} className="mb-3 md:mb-0">
+            <Card
+              title={portfolio.title}
+              description={portfolio.description}
+              stack={portfolio.stack}
+              image={portfolio.image}
+              url={portfolio.url}
+            />
+          </div>
+        ))}
+      </div>
+      <div className="mt-12 text-center">
         <a
           href="https://github.com/hiro-engineer4"
           target="_blank"
@@ -22,19 +35,6 @@ export const Portfolio = () => {
           />
           <span className="ml-2 capitalize">Githubはこちら</span>
         </a>
-      </div>
-      <div className="gap-8 justify-center items-center md:flex md:px-32">
-        {portfolioList.map((portfolio) => (
-          <div key={portfolio.id} className="mb-3 md:mb-0">
-            <Card
-              title={portfolio.title}
-              description={portfolio.description}
-              stack={portfolio.stack}
-              image={portfolio.image}
-              url={portfolio.url}
-            />
-          </div>
-        ))}
       </div>
     </div>
   );
