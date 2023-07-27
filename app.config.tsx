@@ -1,4 +1,13 @@
-export const portfolioList = [
+export type PortfolioType = {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  stack: string[];
+  url: string;
+};
+
+export const portfolioList: PortfolioType[] = [
   {
     id: 1,
     title: "Youtubeまとめアプリ",
@@ -21,7 +30,7 @@ export const portfolioList = [
     title: "ポートフォリオサイト",
     description: "現在閲覧されているポートフォリオサイトです。",
     image: "/main.jpg",
-    stack: ["React", "Next.js", "Tailwind CSS", "Vercel"],
+    stack: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Vercel"],
     url: "https://cocoa-portfolio.site/",
   },
 ];

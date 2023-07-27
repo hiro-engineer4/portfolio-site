@@ -3,8 +3,8 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  plugins: [require("daisyui")],
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
 };
