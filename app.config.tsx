@@ -30,7 +30,7 @@ export const portfolioList: PortfolioType[] = [
     title: "ポートフォリオサイト",
     description: "現在閲覧されているポートフォリオサイトです。",
     image: "/main.jpg",
-    stack: ["React", "Next.js", "Tailwind CSS", "Vercel"],
+    stack: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Vercel"],
     url: "https://cocoa-portfolio.site/",
   },
 ];
