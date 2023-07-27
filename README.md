@@ -4,6 +4,7 @@
 
 - フロントエンド
 
+  - TypeScript
   - React
   - Next.js
   - Tailwind CSS
