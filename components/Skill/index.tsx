@@ -12,6 +12,15 @@ export const Skill = () => {
               <ul>
                 <li className="flex items-center mb-1 font-light">
                   <Image
+                    src="/icon/typescript.svg"
+                    width={32}
+                    height={32}
+                    alt="icon"
+                  />
+                  <span className="ml-2"> TypeScript</span>
+                </li>
+                <li className="flex items-center mb-1 font-light">
+                  <Image
                     src="/icon/react.png"
                     width={32}
                     height={32}
