@@ -18,7 +18,7 @@ export const Profile = () => {
         <div className="flex flex-col justify-center md:w-1/2">
           <h2 className="mb-3 text-2xl tracking-wide">Hironori Tanimoto</h2>
           <p className="font-mono tracking-wider leading-6">
-            広島県在住。
+            島根県在住。
             <br />
             フルリモートでフルスタックエンジニアとして働いています。
             <br />
