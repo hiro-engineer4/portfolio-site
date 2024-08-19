@@ -4,9 +4,8 @@
 
 - フロントエンド
 
-  - TypeScript
-  - React
   - Next.js
+  - TypeScript
   - Tailwind CSS
 
 - インフラ
