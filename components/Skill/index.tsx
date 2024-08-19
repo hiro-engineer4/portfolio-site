@@ -12,30 +12,21 @@ export const Skill = () => {
               <ul>
                 <li className="flex items-center mb-1 font-light">
                   <Image
-                    src="/icon/typescript.svg"
-                    width={32}
-                    height={32}
-                    alt="icon"
-                  />
-                  <span className="ml-2"> TypeScript</span>
-                </li>
-                <li className="flex items-center mb-1 font-light">
-                  <Image
-                    src="/icon/react.png"
-                    width={32}
-                    height={32}
-                    alt="icon"
-                  />
-                  <span className="ml-2"> React</span>
-                </li>
-                <li className="flex items-center mb-1 font-light">
-                  <Image
                     src="/icon/next.png"
                     width={32}
                     height={32}
                     alt="icon"
                   />
                   <span className="ml-2">Next.js</span>
+                </li>
+                <li className="flex items-center mb-1 font-light">
+                  <Image
+                    src="/icon/typescript.svg"
+                    width={32}
+                    height={32}
+                    alt="icon"
+                  />
+                  <span className="ml-2"> TypeScript</span>
                 </li>
               </ul>
             </div>
@@ -53,15 +44,6 @@ export const Skill = () => {
                     alt="icon"
                   />
                   <span className="ml-2">Ruby on Rails</span>
-                </li>
-                <li className="flex items-center mb-1 font-light">
-                  <Image
-                    src="/icon/aws.png"
-                    width={32}
-                    height={32}
-                    alt="icon"
-                  />
-                  <span className="ml-2">AWS</span>
                 </li>
               </ul>
             </div>
