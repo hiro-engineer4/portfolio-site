@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link'
 
-const NavigationItems = ["profile", "portfolio", "skill", "contact"];
+const NavigationItems = ['profile', 'portfolio', 'skill', 'contact']
 
 export const Navigation = () => {
   return (
@@ -23,5 +23,5 @@ export const Navigation = () => {
         ))}
       </ul>
     </nav>
-  );
-};
+  )
+}

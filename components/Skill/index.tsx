@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export const Skill = () => {
   return (
@@ -117,5 +117,5 @@ export const Skill = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

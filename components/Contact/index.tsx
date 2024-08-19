@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export const Contact = () => {
   return (
@@ -26,5 +26,5 @@ export const Contact = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

@@ -1,43 +1,43 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from 'react'
 
-import { Contact } from "@/components/Contact";
-import { Footer } from "@/components/Footer";
-import { Hero } from "@/components/Hero";
-import { Navigation } from "@/components/Navigation";
-import { StickyNavigation } from "@/components/Navigation/sticky";
-import { Portfolio } from "@/components/Portfolio";
-import { Profile } from "@/components/Profile";
-import { Skill } from "@/components/Skill";
+import { Contact } from '@/components/Contact'
+import { Footer } from '@/components/Footer'
+import { Hero } from '@/components/Hero'
+import { Navigation } from '@/components/Navigation'
+import { StickyNavigation } from '@/components/Navigation/sticky'
+import { Portfolio } from '@/components/Portfolio'
+import { Profile } from '@/components/Profile'
+import { Skill } from '@/components/Skill'
 
 export default function Home() {
-  const [isDisplay, setIsDisplay] = useState(false);
+  const [isDisplay, setIsDisplay] = useState(false)
 
-  const isRunning = useRef(false);
+  const isRunning = useRef(false)
 
   const isScrollToggle = useCallback(() => {
-    if (isRunning.current) return;
-    isRunning.current = true;
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const nav = document.querySelector("#navigation");
+    if (isRunning.current) return
+    isRunning.current = true
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+    const nav = document.querySelector('#navigation')
     const navOffset =
-      nav && window.pageYOffset + nav.getBoundingClientRect().top;
+      nav && window.pageYOffset + nav.getBoundingClientRect().top
 
     requestAnimationFrame(() => {
       if (navOffset && scrollTop > navOffset) {
-        setIsDisplay(true);
+        setIsDisplay(true)
       } else {
-        setIsDisplay(false);
+        setIsDisplay(false)
       }
-      isRunning.current = false;
-    });
-  }, []);
+      isRunning.current = false
+    })
+  }, [])
 
   useEffect(() => {
-    document.addEventListener("scroll", isScrollToggle, { passive: true });
+    document.addEventListener('scroll', isScrollToggle, { passive: true })
     return () => {
-      document.removeEventListener("scroll", isScrollToggle);
-    };
-  }, []);
+      document.removeEventListener('scroll', isScrollToggle)
+    }
+  }, [])
 
   return (
     <>
@@ -60,5 +60,5 @@ export default function Home() {
       </main>
       <Footer />
     </>
-  );
+  )
 }

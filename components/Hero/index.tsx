@@ -3,7 +3,7 @@ export const Hero = () => {
     <div
       className="flex justify-center items-center h-screen bg-fixed bg-center bg-cover"
       style={{
-        backgroundImage: "url(" + "/main.jpg" + ")",
+        backgroundImage: 'url(' + '/main.jpg' + ')',
       }}
     >
       <div className="flex justify-center items-center w-full h-screen">
@@ -14,5 +14,5 @@ export const Hero = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

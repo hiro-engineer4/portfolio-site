@@ -1,11 +1,11 @@
-import Image from "next/image";
-import { FC } from "react";
+import Image from 'next/image'
+import { FC } from 'react'
 
-import { PortfolioType } from "@/app.config";
+import { PortfolioType } from '@/app.config'
 
 type CardProps = {
-  portfolio: PortfolioType;
-};
+  portfolio: PortfolioType
+}
 
 export const Card: FC<CardProps> = ({
   portfolio: { title, description, image, stack, url },
@@ -20,7 +20,7 @@ export const Card: FC<CardProps> = ({
               width={120}
               height={90}
               alt={`${title}-image`}
-              style={{ objectFit: "contain" }}
+              style={{ objectFit: 'contain' }}
             />
           </div>
         </figure>
@@ -37,5 +37,5 @@ export const Card: FC<CardProps> = ({
         </div>
       </div>
     </a>
-  );
-};
+  )
+}

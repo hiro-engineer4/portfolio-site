@@ -1,9 +1,9 @@
 // Components
-import Image from "next/image";
+import Image from 'next/image'
 
-import { portfolioList, PortfolioType } from "@/app.config";
+import { portfolioList, PortfolioType } from '@/app.config'
 
-import { Card } from "../Card";
+import { Card } from '../Card'
 
 export const Portfolio = () => {
   return (
@@ -33,5 +33,5 @@ export const Portfolio = () => {
         </a>
       </div>
     </div>
-  );
-};
+  )
+}

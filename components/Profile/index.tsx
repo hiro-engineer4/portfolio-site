@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export const Profile = () => {
   return (
@@ -11,7 +11,7 @@ export const Profile = () => {
             width={240}
             height={240}
             alt="profileImage"
-            style={{ height: "240px", objectFit: "contain" }}
+            style={{ height: '240px', objectFit: 'contain' }}
           />
         </div>
 
@@ -27,5 +27,5 @@ export const Profile = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
