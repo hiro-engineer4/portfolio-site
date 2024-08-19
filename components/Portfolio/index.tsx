@@ -1,4 +1,3 @@
-// Components
 import Image from 'next/image'
 
 import { portfolioList, PortfolioType } from '@/app.config'
@@ -7,11 +6,11 @@ import { Card } from '../Card'
 
 export const Portfolio = () => {
   return (
-    <div className="py-32 text-stone-600 bg-indigo-50">
+    <div className="py-24 text-stone-600 bg-indigo-50">
       <h1 className="mb-12 text-2xl tracking-wider text-center">PORTFOLIO</h1>
       <div className="gap-8 justify-center items-center md:flex md:px-32">
         {portfolioList.map((portfolio: PortfolioType) => (
-          <div key={portfolio.id} className="mb-3 md:mb-0">
+          <div key={portfolio.id} className="mb-8 md:mb-0">
             <Card portfolio={portfolio} />
           </div>
         ))}

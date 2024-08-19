@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 export const Contact = () => {
   return (
-    <div className="py-12 text-stone-600 bg-slate-200">
+    <div className="py-24 text-stone-600 bg-slate-200">
       <h1 className="mb-12 text-2xl tracking-wider text-center">CONTACT</h1>
       <div className="text-center">
-        <p className="mb-4 text-sm tracking-wider leading-6">
+        <p className="mb-8 text-sm tracking-wider leading-6 px-8">
           ご質問・お仕事のご相談等、TwitterのDMからお気軽にお問い合わせください。
         </p>
         <div className="text-center">

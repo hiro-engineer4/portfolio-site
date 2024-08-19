@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 export const Profile = () => {
   return (
-    <div className="py-32 px-4 text-stone-600 bg-stone-50">
+    <div className="py-24 px-4 text-stone-600 bg-stone-50">
       <h1 className="mb-20 text-2xl tracking-wider text-center">PROFILE</h1>
-      <div className="md:flex md:px-32">
-        <div className="mb-3 md:pr-4 md:w-1/2 md:text-right flex justify-end">
+      <div className="md:flex md:px-32 text-center md:text-left">
+        <div className="mb-3 md:pr-4 md:w-1/2 flex justify-center md:justify-end">
           <Image
             src="/profileIcon.jpg"
             width={240}

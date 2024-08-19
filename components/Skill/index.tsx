@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const Skill = () => {
   return (
-    <div className="py-32 ">
+    <div className="py-24">
       <div className="flex flex-col justify-center text-stone-600">
         <h1 className="mb-20 text-2xl tracking-wider text-center">SKILL</h1>
         <div className="gap-8 justify-center px-4 md:flex md:px-32">
